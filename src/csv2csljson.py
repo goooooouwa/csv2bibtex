@@ -2,7 +2,7 @@ import json
 import pandas as pd
 
 # Load the CSV file
-file_path = "./in/input.csv"
+file_path = "./in/pocket-export.csv"
 df = pd.read_csv(file_path)
 
 # Display the first few rows of the CSV to understand its structure
